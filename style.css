@@ -4,12 +4,3 @@
 /* Classic academic typography. */
 body { font-family: Arial, Helvetica, sans-serif; }
 h1, h2, h3, h4, h5, h6, .academic-list-page h1 { font-family: Georgia, "Times New Roman", serif; }
-
-/* Restrained headings and compact footer. */
-.hero h1 { font-size:clamp(2.3rem,4vw,3.35rem); line-height:1.15; }
-.page-intro h1, .academic-list-page h1 { font-size:clamp(2rem,3.5vw,2.7rem); line-height:1.2; margin-bottom:0; }
-.page-intro { padding-block:3.5rem 2rem; }
-.site-footer { padding-block:1.4rem; }
-.footer-simple { display:flex; align-items:center; justify-content:space-between; gap:1rem; font-size:.8rem; }
-.footer-simple a { color:inherit; text-decoration:underline; text-underline-offset:3px; }
-@media(max-width:640px) { .page-intro { padding-block:2.5rem 1.5rem; } }
